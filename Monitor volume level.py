@@ -10,8 +10,8 @@ ser = serial.Serial(
 print("Connected to:", ser.name)
 
 # Calibration constants (replace with your own)
-m = -37.8636
-c = 2884.21
+m = -32.3058
+c = 2726.7385
 
 while True:
     try:
